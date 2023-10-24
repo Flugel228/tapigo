@@ -8,13 +8,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <NuxtLink
+                to="/"
+                class="nav-link"
+            >Home</NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Posts</a>
+            <NuxtLink
+                to="/posts"
+                class="nav-link"
+            >Posts</NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <NuxtLink
+                to="/about"
+                class="nav-link"
+            >About</NuxtLink>
           </li>
         </ul>
         <form class="d-flex">
