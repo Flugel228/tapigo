@@ -1,4 +1,5 @@
 <template>
-  <div>
-  </div>
+  <AppHeader/>
 </template>
+<script setup lang="ts">
+</script>
